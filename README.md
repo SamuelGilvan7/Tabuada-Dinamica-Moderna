@@ -41,12 +41,13 @@ form.addEventListener('submit', function(event) {
         resposta.appendChild(item);
     }
 });
+````
 
-📦 Como Rodar o Projeto Localmente
+## 📦 Como Rodar o Projeto Localmente
 Clone este repositório para a sua máquina:
 
 Bash
-git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
+git clono
 Navegue até a pasta do projeto.
 
 Abra o arquivo index.html diretamente em seu navegador ou utilize a extensão Live Server no VS Code para rodar o servidor local.
