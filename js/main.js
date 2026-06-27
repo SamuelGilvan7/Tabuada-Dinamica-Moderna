@@ -4,14 +4,8 @@ form.addEventListener('submit', function(event){
 
     event.preventDefault();
 
-    let resposta = event.target.querySelector('#seltab');
+    let resposta = document.querySelector('#seltab');
     let numm = event.target.querySelector('#txtn');
-
-    if (numm.value.length === 0) {
-        alert("Por favor, digite um número válido!");
-        return; 
-    }
-
     let num = setValor(numm);
 
     resposta.innerHTML = ''; 
